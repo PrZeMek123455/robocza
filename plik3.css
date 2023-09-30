@@ -112,14 +112,14 @@ header{
         height: 50px;
         position: relative;
         top: 0px;
-        left: 120px;
+        left: 200px;
     }
 
     .section{
         max-width: 800px;
         height: 400px;
         position: relative;
-        left: 70px;
+        left: 200px;
         flex-wrap: wrap;
 
     }
@@ -130,7 +130,7 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 50px;
+        left: 30px;
         margin-top: 0px;
     }
 
@@ -140,7 +140,7 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 30px;
+        left: 10px;
         margin-top: 250px;
     }
 
@@ -150,41 +150,43 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 30px;
+        left: 10px;
         margin-top: 250px;
     }
 
     .teksty{
-        max-width: 200px;
+        max-width: 300px;
         height: 1800px;
         position: relative;
+        display: flex;
         flex-wrap: wrap;
     }
 
     .tekst1{
-        max-width: 200px;
+        max-width: 250px;
         height: 200px;
         position: relative;
         top: -70px;
-        left: -50px;
+        left: 50px;
         border: 2px solid red;
     }
 
     .tekst2{
-        max-width: 200px;
+        max-width: 250px;
         height: 200px;
         position: relative;
         border: 2px solid red;
         top: 270px;
-        left: 0px;
+        left: 100px;
+        
     }
 
     .tekst3{
-        max-width: 200px;
+        max-width: 250px;
         height: 200px;
         position: relative;
         top: 620px;
-        left: -50px;
+        left: 50px;
         border: 2px solid red;
     }
 
