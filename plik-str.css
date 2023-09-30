@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    max-width: 1840px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 40px;
+    
+    
+}
+
+.header-img{
+    width: 450px;
+    height: 250px;
+    float: right;
+    position: relative;
+    top: -200px;
+    left: -150px;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+
+.header-p{
+    font-size: 40px;
+    color: white;
+}
+
+.header-h1{
+    font-size: 35px;
+}
+
+.header-h2{
+    font-size: 35px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: 900px;
+        height: 300px;
+    }
+
+    .header-p{
+        font-size: 25px;
+    }
+    .header-h1{
+        font-size: 30px;
+    }
+
+    .header-h2{
+        font-size: 30px;
+    }
+
+    .header-img{
+        width: 250px;
+        height: 200px;
+        top: -200px;
+        left: 30px;
+
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+    .header{
+        width: 1800px;
+        height: 400px;  
+    }
+
+    .header-p{
+        font-size: 30px;
+    }
+
+    .header-h1{
+        font-size: 35px;
+    }
+
+    .header-h2{
+        font-size: 35px;
+    }
+
+    .header-img{
+        width: 400px;
+        height: 300px;
+        top: -220px;
+        left: 0px;
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 4000px){
+    .header{
+        width: 1800px;
+        height: 400px;  
+    }
+
+    .header-p{
+        font-size: 30px;
+    }
+
+    .header-h1{
+        font-size: 35px;
+    }
+
+    .header-h2{
+        font-size: 35px;
+    }
+
+    .header-img{
+        width: 400px;
+        height: 300px;
+        top: -220px;
+        left: 0px;
+
+    }
+}
+
+
+
+.main{
+    max-width: 1840px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.main-img{
+    width: 500px;
+    height: 350px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.main-p{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    left: 650px;
+}
+
+.main2{
+    max-width: 1840px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+.main2-p2{
+    width: 480px;
+    height: 350px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    left: 280px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+
+    .main-p{
+        width: 200px;
+        height: 0px;
+        font-size: 35px;
+        margin-left: -250px;
+        margin-top: 100px;
+    }
+
+    .main-img{
+        width: 600px;
+        height: 550px;
+        margin-left: 200px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .main-p{
+        width: 300px;
+        height: 0px;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .main-img{
+        margin-top: 350px;
+        width: 450px;
+        height: 350px;
+        padding-left: 50px;
+
+        
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 4000px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .main-p{
+        width: 300px;
+        height: 0px;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .main-img{
+        margin-top: 350px;
+        width: 450px;
+        height: 350px;
+        padding-left: 50px;
+
+        
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main2{
+        grid-template-columns: 1fr;
+    }
+
+    .main2-p2{
+        width: 400px;
+        height: 350px;
+        margin-top: 370px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .main2{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .main2-p2{
+        width: 300px;
+        height: 250px;
+        margin-top: 150px;
+        margin-left: 180px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 4000px) {
+    .main2{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .main2-p2{
+        width: 300px;
+        height: 250px;
+        margin-top: 150px;
+        margin-left: 180px;
+    }
+}
+
