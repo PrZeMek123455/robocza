@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    
+}
+
+.header1{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(25, 168, 187);
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.header1 p{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 40px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.header1 h1{
+    margin-top: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+.header1 h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header1 button{
+    padding: 20px;
+    background-color:  rgb(25, 168, 187);
+    color: white;
+    border: 2px solid white;
+    margin-top: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+.header2{
+    background-color: rgb(25, 168, 187);
+    width: 20%;
+    height: 600px;
+
+}
+
+.header2 img{
+    background-size: cover;
+    position: relative;
+    left: -80%;
+    top: 12%;
+    border-radius: 20%;
+    border: 2px solid black
+
+}
+
+center{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+.center1{
+    width: 35%;
+}
+
+.center2{
+    width: 30%;
+    
+}
+
+.center3{
+    width: 35%;
+    
+}
+
+
+.zdj1{
+    background-image: url("https://p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png");
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+}
+
+.zdj2{
+    background-image: url("https://www.freeline.pl/blog/wp-content/uploads/2018/05/google-1762248_1280.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
+    background-position: 50%;
+}
+
+.zdj3{
+    background-image: url("https://energiadirect.pl/application/resources/ckfinder/userfiles/images/Energooszcz%C4%99dy%20komputer.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    background-position: 40%;
+}
+
+.tekst1{
+    width: 100%;
+    height: 30%;
+}
+
+.tekst2{
+    width: 100%;
+    height: 30%;
+}
+
+.tekst3{
+    width: 100%;
+    height: 30%;
+}
+
+.main{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lorem_ipsum{
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+}
+
+.napis{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    padding-left: 30%;
+    padding-right: 20%;
+    font-size: 40px;
+    margin-top: 10%;
+
+
+
+
+}
+
+background-remover
+
