@@ -1,5 +1,6 @@
 *{
     max-width: 1900px;
+    box-sizing: border-box;
 }
 
 
@@ -37,7 +38,7 @@ header{
 
 @media screen and (max-width: 768px) {
     .header{
-        height: 150px;
+        height: 200px;
         width: 600px;
     }
     
@@ -119,7 +120,7 @@ header{
         max-width: 800px;
         height: 400px;
         position: relative;
-        left: 200px;
+        left: 170px;
         flex-wrap: wrap;
 
     }
@@ -130,7 +131,7 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 30px;
+        left: 10px;
         margin-top: 0px;
     }
 
@@ -140,7 +141,7 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 10px;
+        left: 0px;
         margin-top: 250px;
     }
 
@@ -150,7 +151,7 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 10px;
+        left: 0px;
         margin-top: 250px;
     }
 
@@ -167,7 +168,7 @@ header{
         height: 200px;
         position: relative;
         top: -70px;
-        left: 50px;
+        left: 10px;
         border: 2px solid red;
     }
 
