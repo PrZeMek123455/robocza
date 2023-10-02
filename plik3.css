@@ -156,10 +156,10 @@ header{
     }
 
     .teksty{
-        max-width: 300px;
-        height: 1800px;
+        max-width: 800px;
+        height: 400px;
         position: relative;
-        display: flex;
+        left: 170px;
         flex-wrap: wrap;
     }
 
@@ -169,14 +169,12 @@ header{
         position: relative;
         top: -70px;
         left: 10px;
-        border: 2px solid red;
     }
 
     .tekst2{
         max-width: 250px;
         height: 200px;
         position: relative;
-        border: 2px solid red;
         top: 270px;
         left: 100px;
         
@@ -188,7 +186,6 @@ header{
         position: relative;
         top: 620px;
         left: 50px;
-        border: 2px solid red;
     }
 
 
