@@ -36,9 +36,16 @@ header{
     left: -150px;
 }
 
+.header-button{
+    width: 150px;
+    height: 60px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .header{
-        height: 200px;
+        height: 220px;
         width: 600px;
     }
     
@@ -59,6 +66,13 @@ header{
         height: 100px;
         left: -20px;
         top: -120px;
+    }
+
+    .header-button{
+        width: 120px;
+        height: 30px;
+        font-size: 8px;
+
     }
 }
 
@@ -132,7 +146,7 @@ header{
         background-repeat: no-repeat;
         position: relative;
         left: 10px;
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .section2{
@@ -142,7 +156,7 @@ header{
         background-repeat: no-repeat;
         position: relative;
         left: 0px;
-        margin-top: 250px;
+        margin-top: 270px;
     }
 
     .section3{
@@ -152,7 +166,7 @@ header{
         background-repeat: no-repeat;
         position: relative;
         left: 0px;
-        margin-top: 250px;
+        margin-top: 257px;
     }
 
     .teksty{
@@ -175,7 +189,7 @@ header{
         max-width: 250px;
         height: 200px;
         position: relative;
-        top: 270px;
+        top: 300px;
         left: 100px;
         
     }
@@ -184,7 +198,7 @@ header{
         max-width: 250px;
         height: 200px;
         position: relative;
-        top: 620px;
+        top: 650px;
         left: 50px;
     }
 
