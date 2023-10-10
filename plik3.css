@@ -1,245 +1,389 @@
-*{
-    max-width: 1900px;
-    box-sizing: border-box;
+* {
+  max-width: 1900px;
+  box-sizing: border-box;
 }
 
-
-
-header{
-    width: 100%;
-    height: 400px;
-    background-color: rgb(26, 75, 165);
-    padding-top: 50px;
-    padding-left: 20px;
+header {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(26, 75, 165);
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
-.header-p{
-    font-size: 30px;
-    color: white;
+.header-p {
+  font-size: 30px;
+  color: white;
 }
 
-.header-h1{
-    font-size: 35px;
+.header-h1 {
+  font-size: 35px;
 }
 
-.header-h2{
-    font-size: 35px;
-    color: white;
+.header-h2 {
+  font-size: 35px;
+  color: white;
 }
 
-.header-img{
-    width: 400px;
-    height: 250px;
-    float: right;
-    position: relative;
-    bottom: 200px;
-    left: -150px;
+.header-img {
+  width: 400px;
+  height: 250px;
+  float: right;
+  position: relative;
+  bottom: 200px;
+  left: -150px;
 }
 
-.header-button{
+.header-button {
+  width: 150px;
+  height: 60px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 535px) {
+  .header {
+    height: 220px;
+    width: 800px;
+  }
+
+  .header-p {
+    font-size: 15px;
+  }
+
+  .header-h1 {
+    font-size: 18px;
+  }
+
+  .header-h2 {
+    font-size: 18px;
+  }
+
+  .header-img {
+    width: 150px;
+    height: 100px;
+    left: -20px;
+    top: -120px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 768px) {
+  .header {
+    width: 1450px;
+    height: 300px;
+  }
+
+  .header-p {
+    font-size: 10px;
+  }
+
+  .header-h1 {
+    font-size: 15px;
+  }
+
+  .header-h2 {
+    font-size: 15px;
+  }
+
+  .header-img {
+    width: 300px;
+    height: 200px;
+    left: -20px;
+    top: -120px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .header {
+    width: 1450px;
+    height: 300px;
+  }
+
+  .header-p {
+    font-size: 10px;
+  }
+
+  .header-h1 {
+    font-size: 15px;
+  }
+
+  .header-h2 {
+    font-size: 15px;
+  }
+
+  .header-img {
+    width: 300px;
+    height: 200px;
+    left: -20px;
+    top: -120px;
+  }
+
+  .header-button {
+    width: 120px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .header {
+    width: 1895px;
+    height: 300px;
+  }
+
+  .header-p {
+    font-size: 22px;
+  }
+
+  .header-h1 {
+    font-size: 25px;
+  }
+
+  .header-h2 {
+    font-size: 25px;
+  }
+
+  .header-img {
+    width: 300px;
+    height: 200px;
+    left: -120px;
+    top: -170px;
+  }
+
+  .header-button {
     width: 150px;
     height: 60px;
-    margin-left: 50px;
-    cursor: pointer;
+    font-size: 14px;
+  }
 }
 
-@media screen and (max-width: 768px) {
-    .header{
-        height: 220px;
-        width: 600px;
-    }
-    
-    .header-p{
-        font-size: 15px;
-    }
-
-    .header-h1{
-        font-size: 18px;
-    }
-
-    .header-h2{
-        font-size: 18px;
-    }
-
-    .header-img{
-        width: 150px;
-        height: 100px;
-        left: -20px;
-        top: -120px;
-    }
-
-    .header-button{
-        width: 120px;
-        height: 30px;
-        font-size: 8px;
-
-    }
+.tekst {
+  max-width: 200px;
+  font-size: 28px;
+  margin-left: 800px;
 }
 
+.section {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
-.section{
-    width: 100%;
-    height: 650px;
-    display: flex;
+.pierwszy {
+  width: 33%;
+  height: 600px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zdjecia.biz.pl%2Fzdjecia%2Fduze%2Fmiasto-gdansk-noca-polska.jpeg&f=1&nofb=1&ipt=6fb26d567d5cf3c6c32dc76cda022fae3a4cc15a246229d8f5a72b617a9291ef&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.drugi {
+  width: 33%;
+  height: 600px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zdjecia.biz.pl%2Fzdjecia%2Fduze%2Fmiasto-gdansk-noca-polska.jpeg&f=1&nofb=1&ipt=6fb26d567d5cf3c6c32dc76cda022fae3a4cc15a246229d8f5a72b617a9291ef&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.trzeci {
+  width: 33%;
+  height: 600px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zdjecia.biz.pl%2Fzdjecia%2Fduze%2Fmiasto-gdansk-noca-polska.jpeg&f=1&nofb=1&ipt=6fb26d567d5cf3c6c32dc76cda022fae3a4cc15a246229d8f5a72b617a9291ef&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.tekst1 {
+  position: relative;
+  top: 600px;
+  height: 150px;
+}
+
+.tekst2 {
+  position: relative;
+  top: 600px;
+  height: 150px;
+}
+
+.tekst3 {
+  position: relative;
+  top: 600px;
+  height: 150px;
+}
+
+p {
+  position: relative;
+  top: 10px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 536px) and (max-width: 768px) {
+  .section {
+    display: inline-block;
+    margin-left: -150px;
+  }
+
+  .pierwszy {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+  }
+
+  .drugi {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .trzeci {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .tekst1 {
     position: relative;
-    left: 200px;
-}
+    top: 425px;
+  }
 
+  .tekst2 {
+    position: relative;
+    top: 425px;
+  }
 
-.tekst{
+  .tekst3 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst {
+    margin-left: 650px;
     font-size: 30px;
-    width: 100%;
-    height: 100px;
-    position: relative;
-    top: 50px;
-    left: 600px;
+  }
 }
 
-.section1{
-    width: 25%;
-    background-image: url("https://img.freepik.com/darmowe-psd/ikona-google-na-bialym-tle-renderowania-3d-ilustracja_47987-9777.jpg");
-    height: 600px;
-    background-size: cover;
-    
-}
+@media screen and (max-width: 535px) {
+  .section {
+    display: inline-block;
+    margin-left: -150px;
+  }
 
-.section2{
-    width: 25%;
-    background-image: url("https://img.freepik.com/darmowe-psd/ikona-google-na-bialym-tle-renderowania-3d-ilustracja_47987-9777.jpg");
-    height: 600px;
-    margin-left: 20px;
-    background-size: cover;
-}
-
-
-.section3{
-    width: 25%;
-    background-image: url("https://img.freepik.com/darmowe-psd/ikona-google-na-bialym-tle-renderowania-3d-ilustracja_47987-9777.jpg");
-    height: 600px;
-    margin-left: 20px;
-    background-size: cover;
-}
-
-@media screen and (max-width: 768px) {
-    .tekst{
-        font-size: 22px;
-        width: 100%;
-        height: 50px;
-        position: relative;
-        top: 0px;
-        left: 200px;
-    }
-
-    .section{
-        max-width: 800px;
-        height: 400px;
-        position: relative;
-        left: 170px;
-        flex-wrap: wrap;
-
-    }
-
-    .section1{
-        width: 800px;
-        height: 300px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        left: 10px;
-        margin-top: 20px;
-    }
-
-    .section2{
-        width: 800px;
-        height: 300px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        left: 0px;
-        margin-top: 270px;
-    }
-
-    .section3{
-        width: 800px;
-        height: 300px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        left: 0px;
-        margin-top: 257px;
-    }
-
-    .teksty{
-        max-width: 800px;
-        height: 400px;
-        position: relative;
-        left: 170px;
-        flex-wrap: wrap;
-    }
-
-    .tekst1{
-        max-width: 250px;
-        height: 200px;
-        position: relative;
-        top: -70px;
-        left: 10px;
-    }
-
-    .tekst2{
-        max-width: 250px;
-        height: 200px;
-        position: relative;
-        top: 300px;
-        left: 100px;
-        
-    }
-
-    .tekst3{
-        max-width: 250px;
-        height: 200px;
-        position: relative;
-        top: 650px;
-        left: 50px;
-    }
-
-
-
-
-}
-
-
-
-
-.teksty{
-    max-width: 1450px;
-    height: 200px;
-    display: flex;
-    position: relative;
-    left: 200px;
-}
-
-.tekst1{
+  .pierwszy {
     width: 500px;
-    height: 200px;
-    position: relative;
-    text-align: justify;
-}
+    height: 300px;
+    margin-left: 100px;
+  }
 
-.tekst2{
+  .drugi {
     width: 500px;
-    height: 200px;
-    position: relative;
-    left: 0px;
-    margin-left: 20px;
-    text-align: justify;
-}
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
 
-.tekst3{
+  .trzeci {
     width: 500px;
-    height: 200px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+
+  .tekst1 {
     position: relative;
-    left: 0px;
-    margin-left: 20px;
-    text-align: justify;
+    top: 325px;
+  }
+
+  .tekst2 {
+    position: relative;
+    top: 325px;
+  }
+
+  .tekst3 {
+    position: relative;
+    top: 325px;
+  }
+
+  .tekst {
+    font-size: 25px;
+    margin-left: 300px;
+  }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .section {
+    display: inline-block;
+    margin-left: -150px;
+  }
+
+  .pierwszy {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+  }
+
+  .drugi {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .trzeci {
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 150px;
+  }
+
+  .tekst1 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst2 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst3 {
+    position: relative;
+    top: 425px;
+  }
+
+  .tekst {
+    margin-left: 650px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1399px) {
+  .tekst {
+    margin-left: 525px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .tekst {
+    margin-left: 575px;
+  }
+}
